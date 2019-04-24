@@ -1,0 +1,83 @@
+#img03{
+	transform: scale(0.9,0.9);
+}
+
+#img04{
+	height: 300px;
+	width: 300px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#img04:hover{
+	transition: all 1s;
+	transform: rotate(10deg);
+	box-shadow: 2px 2px 2px #82c3a6;
+	transform: scale(1.1,1.1);
+    filter: grayscale(80%);
+}
+
+#img05{
+	height: 300px;
+	width: 300px;
+	box-shadow: 2px 2px 2px black;
+}
+#img05:hover{
+	transform: scale(1.2,1.2);
+    filter: grayscale(100%);
+}
+
+#img06{
+	height: 300px;
+	width: 300px;
+	box-shadow: 2px 2px 2px black;
+}
+#img06:hover{
+	transform: scale(1.1,1.1);
+    filter: grayscale(60%);
+}
+
+#img07{
+	height: 300px;
+	width: 300px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#img09{
+	height: 300px;
+	width: 300px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#img09:hover{
+	transform: scale(1.1,1.1);
+	filter: sepia(100%);
+
+}
+
+
+
+.retratos{
+	background-color: #E1BB68;
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.ret{
+	flex: 20%;
+	margin: 50px;
+	text-align: center;
+
+}
+
+#img10{
+	height: 300px;
+	width: 300px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#img10:hover{
+	transform: scale(1.2,1.2);
+	filter: blur(10px);
+}
+

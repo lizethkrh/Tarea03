@@ -1,0 +1,132 @@
+body{
+	background-color: #02020a;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 600;
+	height: 100%;
+	transform: translate(0,-500px);
+}
+
+.contenido{
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	transition: all 3s;
+	transform: translate(0,500px);
+}
+
+.cabeza{
+	border-radius: 10px 10px 0 0;
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	background: #5b7989;
+}
+
+div.titulo{
+	color: white;
+	text-shadow: 2px 2px 2px #02020a;
+	margin: auto;
+	font-size: 212%;
+	text-align: center;
+}
+
+div.menu{
+	font-size: 136%;
+	margin-right: auto;
+}
+a{
+	list-style-type: none;
+	color: white;
+	text-decoration: none;
+}
+
+.menu ul{
+	margin-left: -8%;
+}
+
+.menu li{
+	list-style-type: none;
+    display: inline-block;
+    color: white;
+}
+
+.subcontenido{
+	background-color: #E1BB68;
+	width: 100%;
+}
+
+.central{
+	background-color: #82c3a6;
+	margin: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.central img{
+	margin: auto;
+	width: 70%;
+	border: none;
+	display: block;
+}
+
+.sec img{
+	margin: auto;
+	display: block;
+	width: 95%;
+	border: 1px solid #d5c75f;
+}
+
+.secundarias{
+	width: 100%;
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; 
+}
+
+.sec{
+	margin: 50px;
+	text-align: center;
+	width: 300px;
+}
+
+.sec a{
+  color: black;
+}
+
+#img01:hover{
+	transition: all 1s;
+	transform: rotate(10deg);
+	box-shadow: 4px 4px 4px #82c3a6;
+}
+
+#img02:hover{
+	transition: all 1s;
+	transform: rotate(10deg);
+	box-shadow: 4px 4px 4px #82c3a6;
+
+
+}
+
+.footer{
+	border-radius: 0 0 10px 10px;
+	background-color: #C6d5c5;
+	margin-top: -2%;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.footer a{
+	color: black;
+
+}
+
+.con{
+	margin-left: 0.5%;
+	width: 200px;
+	font-size: 20px;
+}
+.con img{
+	width: 25px;
+}
